@@ -1,7 +1,41 @@
-.content {
-  text-align: center;
+body {
+  margin-top: 200px;
 }
 
+h1, h2 {
+  font-family: 'Carter One', sans-serif;
+}
+
+.content {
+  text-align: center;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav img {
+  height: 60px;
+  width: auto;
+  transition: 0.4s;
+}
+
+/* Start header CSS */
 .headerDiv {
   text-align: center;
   margin-top: 4em;
@@ -13,4 +47,36 @@
 
 .linkList {
   padding: 0;
+}
+
+/* Start DW Tools CSS */
+#dwToolsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.dwGMdiv {
+  display: inline-block;
+  background: red;
+  width: 325px;
+  min-height: 350px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.dwGMdiv p {
+  font-size: 1.1em;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  nav {
+    padding: 20px 10px !important;
+  }
+
+  .dwGMdiv {
+    min-height: auto;
+  }
 }
