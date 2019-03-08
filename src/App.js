@@ -16,8 +16,10 @@ class App extends Component {
           <Navbar />
           <Header />
           <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/dungeon-world-gm-generator" component={DWGMgen} />
+            <div className="content">
+              <Route path="/" component={Home} exact />
+              <Route path="/dungeon-world-gm-tools" component={DWGMgen} />
+            </div>
           </Switch>
         </div>
       </BrowserRouter>

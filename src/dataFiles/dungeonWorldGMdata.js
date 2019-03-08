@@ -9,7 +9,7 @@ export const dwGMdata = {
     "Use up their resources",
     "Turn their move back on them",
     "Separate them",
-    "Give an opportunity that fits a class\' abilities",
+    "Give an opportunity that fits a class's abilities",
     "Show a downside to their class, race, or equipment",
     "Offer an opportunity, with or without cost",
     "Put someone in a spot",
@@ -299,7 +299,7 @@ export const dwGMdata = {
   	"always has to be snacking on something",
   	"is vegetarian, because 'murder'",
   	"drinks alcohol excessively",
-  	"doesn\’t brush teeth",
+  	"doesn’t brush teeth",
   	"habitually coughs/clears throat ",
   	"habitually sniffles",
   	"has a large visible scar",
@@ -473,7 +473,7 @@ export const dwGMdata = {
   	"To raise dragons",
   	"To live up to expectations",
   	"To become someone else",
-  	"To do what can\'t be done",
+  	"To do what can't be done",
   	"To be remembered in song",
   	"To be forgotten",
   	"To find true love",
@@ -714,7 +714,7 @@ export const dwGMdata = {
   	"sleeping",
     "slow",
     "smoking",
-    "sorcerer\'s",
+    "sorcerer's",
   	"spotted",
   	"squealing",
   	"strange",
@@ -977,3 +977,5 @@ export const dwGMdata = {
       "youth"
     ]
 }
+
+export default dwGMdata;
