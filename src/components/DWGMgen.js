@@ -24,6 +24,14 @@ class DWGMgen extends React.Component {
     this.getMagicItem = this.getMagicItem.bind(this);
   }
 
+  componentDidMount() {
+    document.body.classList.add("dwToolsBG");
+  }
+
+  componentWillUnmount() {
+    document.body.classList.remove("dwToolsBG");
+  }
+
   newGMMove() {
     this.setState({
       gmMove: rando.randoArray(data.gmMoves)
@@ -55,7 +63,7 @@ class DWGMgen extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="dwToolsWrapper">
         <h1>Dungeon World GM Tools</h1>
         <div id="dwToolsContainer">
           <div className="dwGMdiv">

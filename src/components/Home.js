@@ -1,18 +1,15 @@
 import React from 'react';
 import '../App.css';
 import { NavLink } from 'react-router-dom';
-import { Header } from './Header'
 
 
 function Home() {
   return (
-    <div>
-        <Header />
+    <div id="homeDiv">
         <h2>Name Generators</h2>
         <h2>Generators by System</h2>
-        <ul className="linkList">
-          <NavLink to="/dungeon-world-gm-tools">DW GM Tools</NavLink>
-        </ul>
+        <h3>Dungeon World</h3>
+        <NavLink to="/dungeon-world-gm-tools">Game Master Tools</NavLink>
     </div>
   )
 }
