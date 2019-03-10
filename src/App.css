@@ -3,12 +3,16 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Carter One', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
 
 }
 
 h2 {
   margin-bottom: 3px;
+}
+
+h3 {
+  margin: 3px 1px;
 }
 
 button {
@@ -37,9 +41,8 @@ div {
 }
 
 nav {
-  overflow: hidden;
   background-color: #f1f1f1;
-  padding: 40px 10px;
+  padding: 20px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -49,9 +52,10 @@ nav {
 
 #navDiv {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  max-width: 1280px;
+  max-width: 75vw;
   margin: 0 auto;
 }
 
@@ -76,11 +80,13 @@ nav img {
 }
 
 /* Start DW Tools CSS */
-#dwToolsWrapper {
-  background: rgba(255, 255, 255, 0.8);
+.genWrapper {
+  background: rgba(255, 255, 255, 0.97);
   padding: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 19px 21px 32px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 19px 21px 32px -12px rgba(0,0,0,0.75);
+  box-shadow: 19px 21px 32px -12px rgba(0,0,0,0.75);
 }
 
 #dwToolsContainer {
@@ -106,16 +112,36 @@ nav img {
   font-size: 1.1em;
 }
 
+.nameList {
+  list-style: none;
+  padding: 0;
+}
+
+.nameList h3 {
+  margin-bottom: 10px;
+}
+
+
+
 /*Background images*/
 .dwToolsBG {
-  background-image: url("./img/dwToolsBG.jpg")
+  background-image: url("./img/dwToolsBG.jpg");
+}
+
+.forestGen {
+  background-image: url('./img/forestGenBG.jpg');
+  background-size: cover;
+}
+
+.eldritchGen {
+  background-image: url('./img/eldritchGenBG.jpg')
 }
 
 /* Media Queries */
 @media (max-width: 700px) {
-  nav {
+  /* nav {
     padding: 20px 10px !important;
-  }
+  } */
 
   .dwGMdiv {
     min-height: auto;

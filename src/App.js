@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import DWGMgen from './components/DWGMgen'
+import ForestGenerator from './components/ForestNameGenerator'
+import EldritchNameGenerator from './components/EldritchNameGenerator.js'
 
 
 class App extends Component {
@@ -24,6 +26,8 @@ class App extends Component {
             <div className="content">
               <Route path="/" component={Home} exact />
               <Route path="/dungeon-world-gm-tools" component={DWGMgen} />
+              <Route path="/forest-name-generator" component={ForestGenerator} />
+              <Route path="/eldritch-name-generator" component={EldritchNameGenerator} />
             </div>
           </Switch>
         </div>

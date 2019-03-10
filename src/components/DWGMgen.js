@@ -63,7 +63,7 @@ class DWGMgen extends React.Component {
 
   render() {
     return (
-      <div id="dwToolsWrapper">
+      <div className="genWrapper">
         <h1>Dungeon World GM Tools</h1>
         <div id="dwToolsContainer">
           <div className="dwGMdiv">
@@ -75,7 +75,7 @@ class DWGMgen extends React.Component {
             <h2>NPC</h2>
             <button onClick={this.newNPC}>New NPC</button>
             <div style={{textAlign: "left"}}>
-              <h3 style={{fontFamily: 'Lemon, cursive'}}>{this.state.npcName}</h3>
+              <h3 style={{fontFamily: 'Lemon, cursive', letterSpacing: 1.4}}>{this.state.npcName}</h3>
               <p><strong>Instinct: </strong>{this.state.npcInstinct}</p>
               <p><strong>Knack: </strong>{this.state.npcKnack}</p>
               <p><strong>Quirk: </strong>{this.state.npcQuirk}</p>

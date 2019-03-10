@@ -16,7 +16,10 @@ class Navbar extends React.Component {
       <nav>
         <div id="navDiv">
           <NavLink to="/"><img src={logo} alt="rpgRando Logo"/></NavLink>
-          <NavLink to="/about">About</NavLink>
+          <div>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+          </div>
         </div>
       </nav>
     )
