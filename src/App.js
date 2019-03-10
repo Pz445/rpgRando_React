@@ -6,7 +6,8 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import DWGMgen from './components/DWGMgen'
 import ForestGenerator from './components/ForestNameGenerator'
-import EldritchNameGenerator from './components/EldritchNameGenerator.js'
+import EldritchNameGenerator from './components/EldritchNameGenerator'
+import MountainNameGenerator from './components/MountainNameGenerator'
 
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
               <Route path="/dungeon-world-gm-tools" component={DWGMgen} />
               <Route path="/forest-name-generator" component={ForestGenerator} />
               <Route path="/eldritch-name-generator" component={EldritchNameGenerator} />
+              <Route path="/mountain-name-generator" component={MountainNameGenerator} />
             </div>
           </Switch>
         </div>

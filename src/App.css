@@ -134,7 +134,12 @@ nav img {
 }
 
 .eldritchGen {
-  background-image: url('./img/eldritchGenBG.jpg')
+  background-image: url('./img/eldritchGenBG.jpg');
+}
+
+.mountainGen {
+  background-image: url('./img/mountainGenBG.jpg');
+  background-size: cover;
 }
 
 /* Media Queries */
