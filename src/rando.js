@@ -13,6 +13,17 @@ const rando = {
   //Random Array Item
   randoArray: (arr) => {
     return arr[rando.diceRoller(1, arr.length - 1)]
+  },
+
+  checkForDuplicates: (arr) => {
+    var sorted = arr.slice().sort();
+    for (var i = 0; i < arr.length - 1; i++) {
+      if (sorted[i] === sorted[i+1]) {
+        return true;
+      } else {
+        return false;
+      }
+    }
   }
 
 };
