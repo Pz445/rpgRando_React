@@ -14,6 +14,9 @@ function Home() {
         <h3>Dungeon World</h3>
         <NavLink to="/dungeon-world-gm-tools">Game Master Tools</NavLink>
         <h3>Freebooters on the Frontier</h3>
+        <NavLink to="/freebooters-character-generator">Character Generator</NavLink>
+        <h2>Other Generators</h2>
+        <NavLink to="/movie-personality-mashup">Movie Personality Mashup</NavLink>
     </div>
   )
 }

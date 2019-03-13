@@ -14,11 +14,12 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav>
-        <div id="navDiv">
-          <NavLink to="/"><img src={logo} alt="rpgRando Logo"/></NavLink>
+        <div className="navDiv">
           <div>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/"><img src={logo} alt="rpgRando Logo"/></NavLink>
+          </div>
+          <div>
+            <NavLink className="navLink" to="/contact" id="contact">Contact</NavLink>
           </div>
         </div>
       </nav>
