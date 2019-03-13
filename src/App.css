@@ -1,5 +1,6 @@
 body {
   margin-top: 200px;
+  background: lightyellow;
 }
 
 h1, h2 {
@@ -37,10 +38,6 @@ button:hover {
   text-align: center;
   max-width: 1280px;
   margin: 0 auto;
-}
-
-div {
-  display: block;
 }
 
 nav {
@@ -113,11 +110,28 @@ nav {
   margin-bottom: 40px;
 }
 
-.dwToolsContainer {
+.dwToolsContainer, #homeDiv {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+.dwToolsContainer .columnDiv, #homeDiv .columnDiv {
+  max-width: 45%;
+}
+
+#homeDiv h2 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+#homeDiv h3 {
+  margin-top: 10px;
+  color: #555;
+}
+#homeDiv a {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 20px;
 }
 
 .dwGMdiv {
@@ -175,6 +189,10 @@ nav {
   white-space: nowrap;
 }
 
+#movieDiv {
+  max-width: 45%;
+}
+
 /*Background images*/
 .dwToolsBG {
   background-image: url("./img/dwToolsBG.jpg");
@@ -206,9 +224,17 @@ nav {
 
 /* Media Queries */
 @media (max-width: 700px) {
-  /* nav {
-    padding: 20px 10px !important;
-  } */
+  #movieMash, #homeDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  #movieMash img, #homeDiv img {
+    max-width: 100%;
+  }
+  #movieMash #movieDiv, #homeDiv #movieDiv {
+    max-width: 100%;
+  }
+
   .dwGMdiv {
     min-height: auto;
   }

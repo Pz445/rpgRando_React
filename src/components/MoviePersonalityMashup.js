@@ -15,13 +15,15 @@ class MoviePersonalityMashup extends React.Component {
       image2: '',
     }
     this.fillState = this.fillState.bind(this);
-    this.checkDupe = this.checkDupe.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
 
   fillState() {
     let obj1 = rando.randoArray(charList);
     let obj2 = rando.randoArray(charList);
+    if (obj1.name === obj2.name) {
+      obj2 = rando.randoArray(charList);
+    }
     this.setState({
       name1: obj1.name,
       movie1: obj1.movie,
@@ -30,17 +32,13 @@ class MoviePersonalityMashup extends React.Component {
       movie2: obj2.movie,
       image2: obj2.image,
     })
-  }
-
-  checkDupe() {
     if (this.state.name1 === this.state.name2 || this.state.movie1 === this.state.movie2) {
-      this.fillState()
+
     }
   }
 
   componentDidMount() {
     this.fillState();
-    this.checkDupe();
     document.body.classList.add("movieMashupGen");
   }
 
@@ -50,7 +48,6 @@ class MoviePersonalityMashup extends React.Component {
 
   handleClick() {
     this.fillState();
-    this.checkDupe();
   }
 
   render() {
@@ -60,7 +57,7 @@ class MoviePersonalityMashup extends React.Component {
         <p className="bold">How do you use it?</p>
         <p>The generator will produce two characters from popular movies. Mashup the strengths, weaknesses, looks, virtues, voices, or mannerisms of these characters to generate a personality for your PC/NPC.</p>
         <button onClick={this.handleClick}>Again</button>
-        <div className="dwToolsContainer">
+        <div className="dwToolsContainer" id="movieMash">
           <MovieMashup movieName={this.state.movie1} src={this.state.image1} charName={this.state.name1} />
           <MovieMashup movieName={this.state.movie2} src={this.state.image2} charName={this.state.name2}/>
         </div>

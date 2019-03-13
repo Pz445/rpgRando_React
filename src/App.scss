@@ -1,5 +1,6 @@
 body {
   margin-top: 200px;
+  background: lightyellow;
 }
 
 h1, h2 {
@@ -39,9 +40,7 @@ button:hover {
   margin: 0 auto;
 }
 
-div {
-  display: block;
-}
+
 
 nav {
   background-color: #d8d5bc;
@@ -115,11 +114,30 @@ nav {
   margin-bottom: 40px;
 }
 
-.dwToolsContainer {
+.dwToolsContainer, #homeDiv {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  .columnDiv {
+    max-width: 45%;
+  }
+}
+
+#homeDiv {
+  h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin-top: 10px;
+    color: #555;
+  }
+  a {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
 }
 
 .dwGMdiv {
@@ -181,6 +199,11 @@ nav {
 }
 
 
+#movieDiv {
+  max-width: 45%;
+}
+
+
 /*Background images*/
 .dwToolsBG {
   background-image: url("./img/dwToolsBG.jpg");
@@ -212,9 +235,16 @@ nav {
 
 /* Media Queries */
 @media (max-width: 700px) {
-  /* nav {
-    padding: 20px 10px !important;
-  } */
+  #movieMash, #homeDiv {
+    flex-direction: column;
+    align-items: center;
+    img {
+      max-width: 100%;
+    }
+    #movieDiv {
+      max-width: 100%;
+    }
+  }
 
   .dwGMdiv {
     min-height: auto;
