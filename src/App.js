@@ -34,7 +34,7 @@ class App extends Component {
               <Route path="/dungeon-world-gm-tools" component={DWGMgen} />
               <Route path="/forest-name-generator" component={ForestGenerator} />
               <Route path="/eldritch-name-generator" component={EldritchNameGenerator} />
-              <Route path="/mountain-name-generator" component={MountainNameGenerator} />
+              <Route path="/mountain-range-generator" component={MountainNameGenerator} />
               <Route path="/freebooters-character-generator" component={FreebootersCharacterWrapper} />
               <Route path="/movie-personality-mashup" component={MoviePersonalityMashup} />
               <Route path="/river-name-generator" component={RiverNameGenerator} />

@@ -37,7 +37,7 @@ class MountainNameGenerator extends React.Component {
   render() {
     return (
       <div className="genWrapper">
-        <h1>Mountain Name Generator</h1>
+        <h1>Mountain Range Generator</h1>
         <button onClick={this.handleClick}>Get More Names</button>
         <ul className="nameList" style={{textAlign: "center"}}>
           {this.state.results.map(item=> <li><h3>{item}</h3></li>)}
