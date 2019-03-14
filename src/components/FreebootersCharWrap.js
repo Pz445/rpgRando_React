@@ -87,7 +87,6 @@ class FreebootersCharacterWrapper extends React.Component {
         gear: charGen.character.gear,
         spell: charGen.character.spell,
       })
-      console.log(this.state)
     }
 
     getSpell() {
