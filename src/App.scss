@@ -233,6 +233,10 @@ nav {
   background-size: cover;
 }
 
+.riverGen {
+  background-image: url('./img/riverGenBG.jpg')
+}
+
 /* Media Queries */
 @media (max-width: 700px) {
   #movieMash, #homeDiv {

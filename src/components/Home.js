@@ -11,6 +11,7 @@ function Home() {
           <NavLink className="navLink" to="/forest-name-generator">Forest Name Generator</NavLink><br />
           <NavLink className="navLink" to="/eldritch-name-generator">Eldritch Name Generator</NavLink><br />
           <NavLink className="navLink" to="/mountain-name-generator">Mountain Name Generator</NavLink><br />
+          <NavLink className="navLink" to="/river-name-generator">River Name Generator</NavLink><br />
           <h2>Other Generators</h2>
           <NavLink className="navLink" to="/movie-personality-mashup">Movie Personality Mashup</NavLink>
 
