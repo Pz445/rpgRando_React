@@ -300,5 +300,6 @@ export const forestNames = [
   "Ossiriand",
   "Fangorn",
   "Spider",
-  "Haunted"
+  "Haunted",
+  "Lorien"
 ];

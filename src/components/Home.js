@@ -8,6 +8,7 @@ function Home() {
     <div id="homeDiv">
         <div className="columnDiv">
           <h2>Name Generators</h2>
+          <h3>Location Names</h3>
           <NavLink className="navLink" to="/forest-name-generator">Forest Name Generator</NavLink><br />
           <NavLink className="navLink" to="/eldritch-name-generator">Eldritch Name Generator</NavLink><br />
           <NavLink className="navLink" to="/mountain-name-generator">Mountain Name Generator</NavLink><br />

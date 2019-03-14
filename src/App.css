@@ -1,6 +1,6 @@
 body {
   margin-top: 200px;
-  background: lightyellow;
+  background: #F5F5F5;
 }
 
 h1, h2 {
@@ -26,6 +26,9 @@ button {
   padding: 10px;
   background: #f6c138;
   transition: 0.6s;
+  -webkit-box-shadow: 9px 11px 32px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 32px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 11px 32px -12px rgba(0, 0, 0, 0.75);
 }
 
 button:hover {
@@ -41,7 +44,7 @@ button:hover {
 }
 
 nav {
-  background-color: #d8d5bc;
+  background-color: #2F4F4F;
   padding: 20px 10px;
   transition: 0.4s;
   position: fixed;
@@ -67,12 +70,12 @@ nav {
 }
 .navDiv .navLink {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
   margin: 0 10px;
 }
 .navDiv .navLink:hover {
-  color: #313131;
+  color: #f6c138;
   text-decoration: underline;
   font-style: italic;
 }
@@ -122,16 +125,25 @@ nav {
 
 #homeDiv h2 {
   text-decoration: underline;
+  font-size: 1.6em;
   margin-bottom: 10px;
 }
 #homeDiv h3 {
   margin-top: 10px;
-  color: #555;
+  color: #2F4F4F;
+  font-size: 1.4em;
 }
 #homeDiv a {
   display: inline-block;
+  color: #483D8B;
+  font-weight: bold;
+  text-decoration: none;
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 1.14em;
+}
+#homeDiv a:hover {
+  color: #2F4F4F;
+  text-shadow: -1px -1px 0 goldenrod, 1px -1px 0 goldenrod, -1px 1px 0 goldenrod, 1px 1px 0 goldenrod;
 }
 
 .dwGMdiv {

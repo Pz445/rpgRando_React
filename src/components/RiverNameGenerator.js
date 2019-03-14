@@ -28,8 +28,13 @@ handleClick() {
   let riverArray = [];
   chain.addWordsToChain(riverNameDictionary);
   for (let i = 1; i <=10; i++) {
-    let randomWord = chain.generateWord(6, 11, false);
-    riverArray.push(`The ${randomWord} ${rando.randoArray(riverTitles)}`.trim())
+    let randomWord = chain.generateWord(6, 10, false);
+    let randomTitle = rando.randoArray(riverTitles);
+    if (randomTitle === '') {
+      riverArray.push(`The ${randomWord}`)
+    } else {
+    riverArray.push(`${randomWord} ${randomTitle}`)
+    }
   }
   this.setState({
     results: riverArray
