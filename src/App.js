@@ -12,6 +12,7 @@ import FreebootersCharacterWrapper from './components/FreebootersCharWrap'
 import Contact from './components/Contact'
 import MoviePersonalityMashup from './components/MoviePersonalityMashup'
 import RiverNameGenerator from './components/RiverNameGenerator'
+import OrcNameGenerator from './components/OrcNameGenerator'
 
 class App extends Component {
   constructor(props) {
@@ -37,6 +38,7 @@ class App extends Component {
               <Route path="/freebooters-character-generator" component={FreebootersCharacterWrapper} />
               <Route path="/movie-personality-mashup" component={MoviePersonalityMashup} />
               <Route path="/river-name-generator" component={RiverNameGenerator} />
+              <Route path="/orc-name-generator" component={OrcNameGenerator} />
             </div>
           </Switch>
         </div>

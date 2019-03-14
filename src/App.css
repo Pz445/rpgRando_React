@@ -140,10 +140,12 @@ nav {
   text-decoration: none;
   margin-bottom: 8px;
   font-size: 1.14em;
+  font-style: oblique;
 }
 #homeDiv a:hover {
   color: #2F4F4F;
   text-shadow: -1px -1px 0 goldenrod, 1px -1px 0 goldenrod, -1px 1px 0 goldenrod, 1px 1px 0 goldenrod;
+  font-style: normal;
 }
 
 .dwGMdiv {
@@ -236,6 +238,10 @@ nav {
 
 .riverGen {
   background-image: url("./img/riverGenBG.jpg");
+}
+
+.orcGen {
+  background-image: url("./img/fire.jpg");
 }
 
 /* Media Queries */
