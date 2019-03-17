@@ -593,5 +593,50 @@ export const charList = [
     name: "Elliott",
     movie: "E.T. the Extra-Terrestrial",
     image: "https://m.media-amazon.com/images/M/MV5BMTQ4OTU2MTQ3N15BMl5BanBnXkFtZTgwMDE3MTg5MTE@._V1_SY1000_CR0,0,1515,1000_AL_.jpg"
-  }
+  },
+  {
+    name: "Private Joker",
+    movie: "Full Metal Jacket",
+    image: "https://m.media-amazon.com/images/M/MV5BZGQ1M2Y5MzctOTM1OS00YWM5LWE4NjQtNTc5NDcyYjZlZDIzXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_.jpg"
+  },
+  {
+    name: "Animal Mother",
+    movie: "Full Metal Jacket",
+    image: "https://m.media-amazon.com/images/M/MV5BZThhODE4NTctZjFmZS00ODMyLWEwNzgtOWZhYWVhYjJjMzYyXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_.jpg"
+  },
+  {
+    name: "Gunnery Sergeant Hartman",
+    movie: "Full Metal Jacket",
+    image: "https://m.media-amazon.com/images/M/MV5BNzk4ZGE0MDQtYzZkYi00ZGUyLTlmNzAtZTIzODkzOGU2NzZlXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
+  },
+  {
+    name: "Paul Edgecomb",
+    movie: "The Green Mile",
+    image: "https://m.media-amazon.com/images/M/MV5BMTUzNTc5MjU5NF5BMl5BanBnXkFtZTYwNTc2NTY3._V1_.jpg"
+  },
+  {
+    name: "John Coffey",
+    movie: "The Green Mile",
+    image: "https://m.media-amazon.com/images/M/MV5BMzU4Mjg2MzYwNl5BMl5BanBnXkFtZTgwMTg1MTM4MjI@._V1_SY1000_CR0,0,1558,1000_AL_.jpg"
+  },
+  {
+    name: "Billy Costigan",
+    movie: "The Departed",
+    image: "https://m.media-amazon.com/images/M/MV5BYjM0NDEyN2MtNWIzZC00NGZkLThhODktNGE4ODE0MDk5ZGY3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNDAxOTExNTM@._V1_.jpg"
+  },
+  {
+    name: "Colin Sullivan",
+    movie: "The Departed",
+    image: "https://m.media-amazon.com/images/M/MV5BZjQ0YmUzNzYtNjgyNi00YTc1LTg2NjEtNmFhYzJjNzMxZDc4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX1501_CR0,0,1501,999_AL_.jpg"
+  },
+  {
+    name: "Frank Costello",
+    movie: "The Departed",
+    image: "https://m.media-amazon.com/images/M/MV5BMzI5MTk0NjA0Nl5BMl5BanBnXkFtZTcwODY4MzMyNw@@._V1_SY1000_CR0,0,665,1000_AL_.jpg"
+  },
+  {
+    name: "Dignam",
+    movie: "The Departed",
+    image: "https://m.media-amazon.com/images/M/MV5BMjI1ODkwNjYxMF5BMl5BanBnXkFtZTcwNzc4MzMyNw@@._V1_SY1000_CR0,0,664,1000_AL_.jpg"
+  },
 ];

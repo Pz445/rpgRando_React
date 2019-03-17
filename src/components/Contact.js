@@ -11,6 +11,7 @@ class Contact extends React.Component {
         <ul className="unstyledUL">
           <li className="bold">Is there a bug on this website you would like to report?</li>
           <li className="bold">Do you have a question?</li>
+          <li className="bold">Have an idea for a generator?</li>
           <li className="bold">Need some web development help?</li>
         </ul>
         <p>Feel free to contact me at "fictive@fictivefun.com" or you can message me on Twitter at <a href="https://twitter.com/FictiveFun">FictiveFun</a></p>
