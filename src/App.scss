@@ -252,12 +252,16 @@ nav {
 }
 
 .riverGen {
-  background-image: url('./img/riverGenBG.jpg')
+  background-image: url('./img/riverGenBG.jpg');
 }
 
 .orcGen {
-  background-image: url('./img/fire.jpg')
+  background-image: url('./img/fire.jpg');
+}
 
+.surnameGen {
+  background-image: url('./img/surnameBG.jpg');
+  background-size: cover;
 }
 
 /* Media Queries */

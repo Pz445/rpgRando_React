@@ -248,7 +248,13 @@ export const dwGMdata = {
   	"Sammael",
   	"Toben",
   	"Zephyr",
-  	"Isoru"
+  	"Isoru",
+    "Blix",
+    "Jonah",
+    "Kiamat",
+    "Katrin",
+    "Dreen",
+    "Randolfus",
   ],
   npcQuirk: [
   	"believes all religions are cults",

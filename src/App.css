@@ -244,6 +244,11 @@ nav {
   background-image: url("./img/fire.jpg");
 }
 
+.surnameGen {
+  background-image: url("./img/surnameBG.jpg");
+  background-size: cover;
+}
+
 /* Media Queries */
 @media (max-width: 700px) {
   #movieMash, #homeDiv {

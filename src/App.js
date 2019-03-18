@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import MoviePersonalityMashup from './components/MoviePersonalityMashup'
 import RiverNameGenerator from './components/RiverNameGenerator'
 import OrcNameGenerator from './components/OrcNameGenerator'
+import FantasySurnameGenerator from './components/FantasySurnameGenerator'
 
 class App extends Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class App extends Component {
               <Route path="/movie-personality-mashup" component={MoviePersonalityMashup} />
               <Route path="/river-name-generator" component={RiverNameGenerator} />
               <Route path="/orc-name-generator" component={OrcNameGenerator} />
+              <Route path="/fantasy-surname-generator" component={FantasySurnameGenerator} />
             </div>
           </Switch>
         </div>
