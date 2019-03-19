@@ -953,4 +953,7 @@ export const mountainNameDictionary = [
   "Alba",
   "Tharsis",
   "Elysium",
+  "Nargabad",
+  "Tumunzadd",
+  "Bizaraz",
 ]

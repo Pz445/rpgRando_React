@@ -301,5 +301,17 @@ export const forestNames = [
   "Fangorn",
   "Spider",
   "Haunted",
-  "Lorien"
+  "Lorien",
+  "Porthy",
+  "Scarwood",
+  "Gloomwood",
+  "Blighted",
+  "Dragon's",
+  "Hata",
+  "Cardy",
+  "Cono",
+  "Tenebrious",
+  "Breda",
+  "Mistmoor",
+  "Ebonheart",
 ];
