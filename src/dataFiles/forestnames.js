@@ -10,7 +10,8 @@ export const forestTitles = [
   "Wildwood",
   "Jungle",
   "Wood",
-  "Woodlands"
+  "Woodlands",
+  "Wilds",
 ]
 
 export const forestNames = [
@@ -314,4 +315,13 @@ export const forestNames = [
   "Breda",
   "Mistmoor",
   "Ebonheart",
+  "Elwynn",
+  "Duskwood",
+  "Eversong",
+  "Silverpine",
+  "Felwood",
+  "Crystalsong",
+  "Krasarang",
+  "Terokkar",
+  "Tanaan",
 ];
