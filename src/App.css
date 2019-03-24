@@ -249,6 +249,10 @@ nav {
   background-size: cover;
 }
 
+.elfGen {
+  background-image: url("./img/elfNameGB.jpg");
+}
+
 /* Media Queries */
 @media (max-width: 700px) {
   #movieMash, #homeDiv {
