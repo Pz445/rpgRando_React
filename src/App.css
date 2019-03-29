@@ -123,9 +123,18 @@ nav {
   max-width: 45%;
 }
 
+#homeDiv {
+  background: rgba(234, 237, 237, 0.995);
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 19px 21px 32px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 19px 21px 32px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 19px 21px 32px -12px rgba(0, 0, 0, 0.75);
+  margin-bottom: 40px;
+}
 #homeDiv h2 {
   text-decoration: underline;
-  font-size: 1.6em;
+  font-size: 1.75em;
   margin-bottom: 10px;
 }
 #homeDiv h3 {
@@ -255,6 +264,11 @@ nav {
 
 .dwarfGen {
   background-image: url("./img/dwarfGenBG.jpg");
+}
+
+.home {
+  background-image: url("./img/homeBG.png");
+  background-size: cover;
 }
 
 /* Media Queries */
