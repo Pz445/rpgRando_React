@@ -253,6 +253,10 @@ nav {
   background-image: url("./img/elfNameGB.jpg");
 }
 
+.dwarfGen {
+  background-image: url("./img/dwarfGenBG.jpg");
+}
+
 /* Media Queries */
 @media (max-width: 700px) {
   #movieMash, #homeDiv {
