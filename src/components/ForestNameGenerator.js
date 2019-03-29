@@ -26,7 +26,7 @@ class ForestGenerator extends React.Component {
     let forestArray = [];
     chain.addWordsToChain(forestNames);
     for (let i = 1; i <=10; i++) {
-      let randomWord = chain.generateWord(6, 12, false);
+      let randomWord = chain.generateWord(6, 11, false);
       forestArray.push(`The ${randomWord} ${rando.randoArray(forestTitles)}`.trim())
     }
     this.setState({
