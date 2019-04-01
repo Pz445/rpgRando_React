@@ -73,7 +73,7 @@ class DWGMgen extends React.Component {
           </div>
           <div className="dwGMdiv">
             <h2>NPC</h2>
-            <button onClick={this.newNPC}>New NPC</button>
+            <button onClick={this.newNPC} style={{marginBottom: 15}}>New NPC</button>
             <div style={{textAlign: "left"}}>
               <h3 className="nameStyling">{this.state.npcName}</h3>
               <p><strong>Instinct: </strong>{this.state.npcInstinct}</p>
