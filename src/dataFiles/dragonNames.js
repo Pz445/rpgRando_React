@@ -450,30 +450,33 @@ export const dragonNames = [
   "Charvekkanathor",
   "Chathuuladroth",
   "Chatulio",
-  // Cheleen [18]
-  // Chellewis [18]
-  // Chelnadatilar [14]
-  // Chloracridara [18]
-  // Chlorahskiir [12]
-  // Chloris [20]
-  // Chuth [18]
-  // Cirrothamalan [18]
-  // Claugiyliamatar [21]
-  // Clytemorrenestrix [7]
-  // Constulgrael [18]
-  // Cortulorrulagalargoth [18]
-  // Cragnortherma [18]
-  // Crimdrac [18]
-  // Daereveroese [18]
-  // Dargentum [22]
-  // Daurgothoth [10]
-  // Dendeirmerdammarar [18]
-  // Dermawellindrar [18]
-  // Despayr [18]
-  // Deszeldaryndun Silverwing [10]
-  // Dheubpurcwenpyl [23]
-  // Domborcojh
-  // Dizmallorthan [18]
+  "Cheleen",
+  "Chellewis",
+  "Chelnadatilar",
+  "Chloracridara",
+  "Chlorahskiir",
+  "Chloris",
+  "Chuth",
+  "Cirrothamalan",
+  "Claugiyliamatar",
+  "Clytemorrenestrix",
+  "Constulgrael",
+  "Cortulorrulagalargoth",
+  "Cragnortherma",
+  "Crimdrac",
+  "Daereveroese",
+  "Dargentum",
+  "Daurgothoth",
+  "Dendeirmerdammarar",
+  "Dermawellindrar",
+  "Despayr",
+  "Deszeldaryndun",
+  "Dheubpurcwenpyl",
+  "Domborcojh",
+  "Dizmallorthan",
+  "Emberscale",
+  "Magmascale",
+  "Ifritosaur",
   // Draconis
   // Draconobalen [18]
   // Dragansalor [18]
@@ -550,7 +553,6 @@ export const dragonNames = [
   // Havarlan [30]
   // Heltipyre [30]
   // Hephaestus [34]
-  // The Hermit [35]
   // Hethcypressarvil [30]
   // Hesior [ citation needed ]
   // Hoondarrh [26]
