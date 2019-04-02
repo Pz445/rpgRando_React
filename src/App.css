@@ -266,6 +266,12 @@ nav {
   background-image: url("./img/dwarfGenBG.jpg");
 }
 
+.dragonGen {
+  background-image: url("./img/dragonBG.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+}
+
 .home {
   background-image: url("./img/homeBG.png");
   background-size: cover;

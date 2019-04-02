@@ -9,11 +9,11 @@ class DragonNameGenerator extends React.Component {
 
   componentDidMount() {
     this.handleClick();
-    document.body.classList.add("elfGen");
+    document.body.classList.add("dragonGen");
   };
 
   componentWillUnmount() {
-    document.body.classList.remove("elfGen");
+    document.body.classList.remove("dragonGen");
   }
 
   handleClick = () => {
