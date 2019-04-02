@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { surname } from '../dataFiles/fantasySurnameData';
 import rando from '../rando'
 

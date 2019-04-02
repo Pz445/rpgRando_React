@@ -1211,6 +1211,8 @@ export const charGen = {
           return charGen.getWizardName() + "'s " + charGen.getForm() + " of " + charGen.getElement();
         case 10:
           return charGen.getWizardName() + "'s " + charGen.getElement() + " " + charGen.getForm();
+        default:
+          return;
       }
     },
 
@@ -1272,6 +1274,8 @@ export const charGen = {
         case 6:
           weapon = "Warhammer (1d6, close, 1 pierce, 1wt)";
           break;
+        default:
+          return;
         }
       switch (otherRoll) {
         case 1:
@@ -1286,6 +1290,8 @@ export const charGen = {
         case 6:
           otherGear = "Chainmail (2 armor, 3 wt)";
           break;
+        default:
+          return;
         }
       charGen.character.gear = [
         "Your holy symbol (0wt)",
@@ -1318,6 +1324,8 @@ export const charGen = {
         case 6:
           weapon = "Scale mail (3 armor, awkward, 4wt)";
           break;
+        default:
+          return;
         }
       switch (otherRoll) {
         case 1:
@@ -1338,6 +1346,8 @@ export const charGen = {
         case 6:
           otherGear = "Adventuring gear (5 uses, 2wt)";
           break;
+        default:
+          return;
         }
         switch (otherRollAgain) {
           case 1:
@@ -1358,6 +1368,8 @@ export const charGen = {
           case 6:
             otherGearAgain = "Adventuring gear (5 uses, 2wt)";
             break;
+          default:
+            return;
           }
       charGen.character.gear = [
         "Your favored weapon",
@@ -1389,6 +1401,8 @@ export const charGen = {
         case 6:
           weapon = "Shortsword (1d6, close, 1 wt)";
           break;
+        default:
+          return;
         }
       switch (otherRoll) {
         case 1:
@@ -1403,6 +1417,8 @@ export const charGen = {
         case 6:
           weapon = "Shortbow (1d6, near, far, 2-handed, 1 wt) and quiver (3 ammo, 1 wt)";
           break;
+        default:
+          return;
         }
       charGen.character.gear = [
         "Leather armor (1 armor, 1 wt)",
@@ -1433,6 +1449,8 @@ export const charGen = {
         case 6:
           weapon = "Arcane orb (+2 power, 1 wt)";
           break;
+        default:
+          return;
         }
       switch (otherRoll) {
         case 1:
@@ -1449,6 +1467,8 @@ export const charGen = {
         case 6:
           otherGear = "Spell components (+1 power, 3 uses, 0 wt)";
           break;
+        default:
+          return;
         }
       charGen.character.gear = [
         "Your spellbook (1 wt)",
