@@ -24,10 +24,12 @@ class Home extends React.Component {
             <NavLink className="navLink" to="/river-name-generator">River Name Generator</NavLink><br />
             <h3>Character Names</h3>
             <NavLink className="navLink" to="/fantasy-surname-generator">Fantasy Surname Generator</NavLink><br />
+            <NavLink className="navLink" to="/dragon-name-generator">Dragon Name Generator</NavLink><br />
+            <NavLink className="navLink" to="/dwarf-name-generator">Dwarf Name Generator</NavLink><br />
             <NavLink className="navLink" to="/eldritch-name-generator">Eldritch Name Generator</NavLink><br />
             <NavLink className="navLink" to="/elf-name-generator">Elf Name Generator</NavLink><br />
             <NavLink className="navLink" to="/orc-name-generator">Orc Name Generator</NavLink><br />
-            <NavLink className="navLink" to="/dwarf-name-generator">Dwarf Name Generator</NavLink><br />
+
 
 
             <h2>Other Generators</h2>

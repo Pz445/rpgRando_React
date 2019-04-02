@@ -16,6 +16,7 @@ import OrcNameGenerator from './components/OrcNameGenerator'
 import FantasySurnameGenerator from './components/FantasySurnameGenerator'
 import ElfNameGenerator from './components/ElfNameGenerator'
 import DwarfNameGenerator from './components/DwarfNameGenerator'
+import DragonNameGenerator from './components/DragonNameGenerator'
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class App extends Component {
               <Route path="/fantasy-surname-generator" component={FantasySurnameGenerator} />
               <Route path="/elf-name-generator" component={ElfNameGenerator} />
               <Route path="/dwarf-name-generator" component={DwarfNameGenerator} />
+              <Route path="/dragon-name-generator" component={DragonNameGenerator} />
             </div>
           </Switch>
         </div>
