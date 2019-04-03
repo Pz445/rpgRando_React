@@ -42,6 +42,8 @@ class Home extends React.Component {
             <NavLink className="navLink" to="/dungeon-world-gm-tools">Game Master Tools</NavLink>
             <h3>Freebooters on the Frontier</h3>
             <NavLink className="navLink" to="/freebooters-character-generator">Character Generator</NavLink>
+            <h3>Ironsworn Oracles</h3>
+            <NavLink className="navLink" to="/ironsworn-oracles">Ironsworn Oracles</NavLink>
           </div>
       </div>
     )

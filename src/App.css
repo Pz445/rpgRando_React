@@ -268,8 +268,17 @@ nav {
 
 .dragonGen {
   background-image: url("./img/dragonBG.jpg");
-  background-size: auto 100vh;
+  background-size: cover 100vh;
   background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ironswornGen {
+  background-image: url("./img/ironswornBG.jpg");
+  background-size: cover;
+}
+.ironswornGen button {
+  margin: 0 8px 8px 0;
 }
 
 .home {
