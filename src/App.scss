@@ -223,6 +223,12 @@ nav {
   }
 }
 
+.ironswornButton:hover {
+  color: #f6c138;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: black;
+}
 
 #movieDiv {
   max-width: 45%;
@@ -290,12 +296,12 @@ nav {
   background-image: url('./img/ironswornBG.jpg');
   background-size: cover;
   button {
-    margin: 0 8px 8px 0
+    margin: 0 8px 8px 0;
   }
 }
 
 .home {
-  background-image: url('./img/homeBG.png');
+  background-image: url('./img/homeBG.jpg');
   background-size: cover;
 }
 
